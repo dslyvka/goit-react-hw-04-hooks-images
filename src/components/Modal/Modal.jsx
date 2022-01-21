@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-function Modal({onClose, image}) {
+function Modal({ onClose, image }) {
   const esc = e => {
     if (e.keyCode === 27) {
       onClose();
